@@ -16,7 +16,7 @@ Canvas.encodeJPEG = (imgdata, quality = 0.9) => {
   return encodeImage(imgdata, "image/jpeg", quality)
 };
 Canvas.encodePNG = (imgdata) => {
-  return encodeImage(imgdata, "image/png", quality)
+  return encodeImage(imgdata, "image/png")
 };
 
 export { Canvas };
