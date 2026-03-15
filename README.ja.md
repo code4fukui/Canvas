@@ -1,12 +1,13 @@
 # Canvas
 
-A utility library for working with HTML canvas.
+HTML5 Canvasを操作するためのユーティリティライブラリです。
 
-## Features
-- `Canvas.encodeJPEG(imgdata, quality)`: Encodes an image data object as a JPEG with the specified quality.
-- `Canvas.encodePNG(imgdata)`: Encodes an image data object as a PNG.
+## 機能
 
-## Usage
+- `Canvas.encodeJPEG(imgdata, quality)`: 画像データをJPEGに変換し、品質を指定して出力します。
+- `Canvas.encodePNG(imgdata)`: 画像データをPNGに変換して出力します。
+
+## 使い方
 
 ```js
 import { html2image } from "./html2image.js";
@@ -21,5 +22,6 @@ btn.onclick = async () => {
 };
 ```
 
-## License
+## ライセンス
+
 MIT License
