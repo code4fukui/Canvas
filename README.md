@@ -1,5 +1,7 @@
 # Canvas
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 A utility library for working with HTML canvas.
 
 ## Features
